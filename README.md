@@ -1,6 +1,6 @@
 # middleware 中间件 
 > 正是因为中间件的扩展性才使得 `Koa` 的代码简单灵活。 
-
+> 阮一峰ES6中的async和await链接: http://es6.ruanyifeng.com/?search=async&x=0&y=0#docs/async
 <br> 
 
 在 `app.js` 中，有这样一段代码： 
