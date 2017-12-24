@@ -62,6 +62,12 @@ node app.js
 
 ```js
 // 安装 koa，并将版本信息保存在 package.json 中
+// npm xx -h 是快速命令帮助
+// npm help install 是关于install详细的帮助文档
+// npm i 是npm install 的别称
+// -S | --save
+// -D | --save-Dev
+
 npm i koa -S
 ```
 
