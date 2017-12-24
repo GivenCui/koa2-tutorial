@@ -19,6 +19,21 @@
 
 <br>
 
+### Node Supervisor
+
+- Node Supervisor原本是用于服务器上Node.js应用崩溃的时候，自动重新启动。当然它也可以监控你的项目的js文件变化，自动重启来方便调试。
+
+```
+# 安装
+npm install supervisor -g
+
+# 使用
+# 查看帮助
+supervisor -h
+# 启动node并监听
+supervisor app.js
+```
+
 ## 项目初始化 
 > 身为程序员，初入江湖第一招：『Hello World』
 
