@@ -1,5 +1,6 @@
 # middleware 中间件 
-> 正是因为中间件的扩展性才使得 `Koa` 的代码简单灵活。 
+> 正是因为中间件的扩展性才使得 `Koa` 的代码简单灵活。
+
 > 阮一峰ES6中的async和await链接: http://es6.ruanyifeng.com/?search=async&x=0&y=0#docs/async
 <br> 
 
@@ -20,7 +21,7 @@ app.use(async (ctx, next)=>{
 <br> 
 
 ## ctx
-
+http://koajs.com/#context
 <br> 
 
 `ctx` 作为上下文使用，包含了基本的 `ctx.request` 和 `ctx.response`。另外，还对 `Koa` 内部对一些常用的属性或者方法做了代理操作，使得我们可以直接通过 `ctx` 获取。比如，`ctx.request.url` 可以写成 `ctx.url`。
