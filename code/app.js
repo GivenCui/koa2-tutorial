@@ -8,8 +8,10 @@ app.use(async (ctx, next)=>{
   await next()
   let etime = new Date().getTime()
   ctx.response.type = 'text/html'
-  ctx.response.body = '<h1>Hello World</h1>'
+  ctx.response.body = `<h1>Hello World</h1>
+  <p>请求地址: ${ctx.path}，响应时间：${etime - stime}ms</p>`
   console.log(`请求地址: ${ctx.path}，响应时间：${etime - stime}ms`)
+  console.log('ctx', JSON.stringify(ctx))
 });
 
 app.use(async (ctx, next) => {
